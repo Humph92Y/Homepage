@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 10px; /* navbar의 상하 패딩 추가 */
+}
+
+.navbar_logo {
+    display: flex;
+    align-items: center; /* 로고와 텍스트를 수직으로 정렬 */
+    color: white;
+    font-size: 24px;
+}
+
+.navbar_logo img {
+    margin-right: 5px; /* 로고와 텍스트 사이의 간격 */
+}
+
+.navbar_menu {
+    display: flex;
+    margin-left: auto; /* navbar_links와의 간격을 조정하기 위해 margin 사용 */
+    font-weight: bold;
+}
+
+
+.navbar_menu ul {
+    display: flex; /* 리스트를 가로로 정렬 */
+    list-style: none; /* 기본 리스트 스타일 제거 */
+    padding: 0px 100px; /* 기본 패딩 제거 */
+    margin: 0px ; /* 기본 마진 제거 */
+}
+
+.navbar_menu li {
+    margin-right: 50px; /* 리스트 항목들 사이에 간격 추가 */
+    font-size: 20px;
+}
+
+.navbar_menu li:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.navbar a {
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: #03014C; /* 링크 색상 */
+}
+
+.navbar_links {
+    display: flex;
+    color: white; /* 아이콘 색상 */
+    font-size: 25px;
+}
+
+.navbar_links i {
+    margin-left: 25px; /* 아이콘 간격 */
+}
+
+
+
+
+header {
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    padding: 180px;
+    background-image: url('images/background2.jpg');
+    background-size: cover; 
+    background-position: center; 
+    padding-left: 50px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+
+
+h2 {
+    color: #03014C; 
+    font-size: 28px; 
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 100px; 
+    letter-spacing: 1.5px;
+    
+}
+
+h2 li {
+    color: #555; 
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin: 0; 
+    text-align: justify; /* 본문 텍스트 양쪽 정렬 */
+    max-width: 800px; /* 최대 너비를 설정해 긴 텍스트 가독성 향상 */
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+h3 {
+    color: #03014C; 
+    font-size: 30px; 
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 100px; 
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+/* 전체 슬라이드와 버튼을 감싸는 래퍼 */
+.slide-wrapper {
+    display: flex; /* 슬라이드와 버튼을 나란히 배치 */
+    justify-content: center; /* 수평으로 중앙 배치 */
+    align-items: center; /* 세로로 중앙 배치 */
+    width: 100%; /* 부모 요소 너비 */
+    height: auto; /* 화면 전체 높이 */
+    gap: 20px; /* 슬라이드와 버튼들 사이의 간격 */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* 슬라이드 부분 */
+.slidewrap {
+    width: 60%; /* 슬라이드가 차지할 너비 */
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1.0s ease;
+}
+
+.slide {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 500px; /* 슬라이드 높이 */
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.section1 { background-image: url(images/course2.JPG); }
+.section2 { background-image: url(images/course3.JPG); }
+.section3 { background-image: url(images/course4.JPG); }
+.section4 { background-image: url(images/course5.JPG); }
+
+/* 슬라이드 옆에 있는 버튼 컨테이너 */
+.btn-container {
+    display: flex;
+    flex-direction: column; /* 버튼을 세로로 배치 */
+    align-items: center; /* 버튼들을 세로 중앙 정렬 */
+    gap: 20px; /* 버튼들 사이의 간격 */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #03014C;
+}
+
+/* 버튼 스타일 */
+.button {
+    width: 300px;
+    height: 90px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h4 {
+    display: flex;
+    color: #03014C; 
+    font-size: 28px; 
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 50px; 
+    letter-spacing: 1.5px;
+    gap: 50px;
+    background-color: #f4f4f9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h4 li {
+    color: #555; 
+    font-size: 18px; 
+    list-style: none;
+    line-height: 1.6; 
+    margin: 0; 
+    text-align: justify; /* 본문 텍스트 양쪽 정렬 */
+    max-width: 800px; /* 최대 너비를 설정해 긴 텍스트 가독성 향상 */
+    margin-left: 100px; 
+    margin-right: 100px; 
+    text-align: center;
+}
+
+#contactus:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    color: #03014C;
+}
+
+footer {
+    display: flex;
+    text-align: left;
+    padding: 20px 10px; /* footer 상하 패딩 */
+    background-color: #03014C; /* footer 배경색 */
+    color: white;
+    justify-content: space-between;
+    
+}
