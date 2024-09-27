@@ -404,20 +404,22 @@ footer {
     }
 
     h3 {
-        font-size: 18px;
-        font-weight: 1000;
-        padding-left: 50px;
-        padding-right: 50px;
+        color: #03014C;
+        font-size: 20px;
+        font-weight: 800;
+        padding-left: 45px;
+        padding-right: 45px;
+        line-height: 1.5; 
+        margin-bottom: 20px;
     }
-
+    
     h3 li {
         font-size: 14px;
-    }
-
-    h3 li .highlight {
-        color: #03014C; 
-        font-weight: 800; 
-        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 15px; 
+        line-height: 1.6; 
+        list-style: none; 
+        letter-spacing: 0.5px; 
     }
 
     h4 {
