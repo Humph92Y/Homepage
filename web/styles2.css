@@ -118,33 +118,28 @@ h2 {
 }
 
 h3 {
-    color: #03014C; 
-    font-size: 40px; 
-    font-weight: bold; 
-    text-align: center; 
-    margin-top: 100px; 
-    letter-spacing: 1.5px;
-    background-color: #f4f4f9;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-h3 li {
-    color: #555;
     font-size: 20px;
-    line-height: 1.6;
-    margin: 20px 0;
-    text-align: justify;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 12px;
+    font-weight: 800;
+    padding-left: 45px;
+    padding-right: 45px;
+    line-height: 1.5; 
+    margin-bottom: 20px;
 }
-
-h3 li .highlight {
-    color: #03014C; 
-    font-weight: 1000; 
-    font-size: 25px;
+    
+h3 li {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px; 
+    line-height: 1.6; 
+    list-style: none; 
+    letter-spacing: 0.5px; 
+}
+    
+ h3 li .highlight {
+    color: #03014C;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1.2px; /* 강조된 글자 간 간격 설정 */
 }
 
 
