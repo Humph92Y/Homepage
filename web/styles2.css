@@ -590,6 +590,12 @@ footer {
     }
 
 
+    .navbar_links {
+        font-size: 24px;
+        padding-right: 18px;
+        padding-bottom: 2px;
+    }
+
     /* 모바일 메뉴 */
     .navbar_menu ul {
         display: none;
