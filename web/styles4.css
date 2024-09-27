@@ -483,12 +483,12 @@ footer {
     }
 
     .top-button {
-        top: 800px;
+        top: 600px;
         right: 15px;
     }
 
     .top-button i {
-        font-size: 23px;
+        font-size: 20px;
     }
 }
 
