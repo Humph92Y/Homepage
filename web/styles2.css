@@ -560,12 +560,12 @@ footer {
     }
 
     .top-button {
-        top: 800px;
-        right: 35px;
+        top: 600px;
+        right: 25px;
     }
 
     .top-button i {
-        font-size: 23px;
+        font-size: 20px;
     }
 }
 
