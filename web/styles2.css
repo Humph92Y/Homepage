@@ -342,8 +342,8 @@ footer {
 
     .navbar_links {
         font-size: 24px;
-        padding-right: 15px;
-        padding-bottom: 2px;
+        padding-right: 12px;
+        padding-bottom: 1px;
     }
 
     /* 모바일 메뉴 */
@@ -428,9 +428,9 @@ footer {
     
     h3 li .highlight {
         color: #03014C;
-        font-weight: 600;
+        font-weight: 400;
         font-size: 16px;
-        letter-spacing: 1.2px; /* 강조된 글자 간 간격 설정 */
+        letter-spacing: 1.0px; /* 강조된 글자 간 간격 설정 */
     }
     
 
@@ -600,8 +600,8 @@ footer {
 
     .navbar_links {
         font-size: 24px;
-        padding-right: 15px;
-        padding-bottom: 2px;
+        padding-right: 12px;
+        padding-bottom: 1px;
     }
 
     /* 모바일 메뉴 */
