@@ -320,7 +320,8 @@ footer {
     .navbar_links {
         font-size: 24px;
         padding-right: 12px;
-        padding-bottom: 1px;/
+        padding-bottom: 1px;
+        color: #007BFE;
     }
 
     /* 모바일 메뉴 */
@@ -518,6 +519,7 @@ footer {
         font-size: 24px;
         padding-right: 12px;
         padding-bottom: 1px;
+        color: #007BFE;
     }
 
     /* 모바일 메뉴 */
