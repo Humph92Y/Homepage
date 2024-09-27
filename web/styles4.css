@@ -5,9 +5,6 @@ body {
     overflow-x: hidden; /* 옆으로 넘치는 문제 해결 */
 }
 
-* {
-    box-sizing: border-box;
-  }
 
   .navbar {
     display: flex;
