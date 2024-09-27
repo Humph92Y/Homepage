@@ -428,9 +428,9 @@ footer {
     
     h3 li .highlight {
         color: #03014C;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 16px;
-        letter-spacing: 1.0px; /* 강조된 글자 간 간격 설정 */
+        letter-spacing: 0.5px; /* 강조된 글자 간 간격 설정 */
     }
     
 
