@@ -300,7 +300,7 @@ footer {
 /* 햄버거 버튼과 링크가 겹치지 않게 조정 */
 .navbar_links {
      font-size: 24px;
-     padding-right: 18px;
+     padding-right: 15px;
      padding-bottom: 2px;
 }
 /* 모바일 메뉴 */
@@ -512,7 +512,7 @@ footer {
 
 .navbar_links {
     font-size: 24px;
-    padding-right: 18px;
+    padding-right: 15px;
     padding-bottom: 2px;  
 }
     
